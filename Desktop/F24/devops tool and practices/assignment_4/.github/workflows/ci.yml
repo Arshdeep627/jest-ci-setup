@@ -1,8 +1,12 @@
-name: Jest CI
+# This is a test change to trigger the workflow
+name: CI Workflow
+
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main  # or your default branch name
+
 
 jobs:
   test:
